@@ -8,7 +8,7 @@
                 android:icon="@drawable/ic_baseline_home_24"
                 android:title="Home"/>
             <item
-                android:id="@+id/btnConexao"
+                android:id="@+id/conexoes"
                 android:icon="@drawable/connection_removebg_preview"
                 android:title="Conexões" />
             <item
