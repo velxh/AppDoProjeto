@@ -8,25 +8,21 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.MenuItem;
 import com.google.android.material.navigation.NavigationView;
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import android.annotation.SuppressLint;
-import android.app.Activity;
-import android.content.Intent;
-import android.os.Bundle;
-import android.os.Message;
-import android.view.View;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
+
     DrawerLayout drawerLayout;
+
     ActionBarDrawerToggle actionBarDrawerToggle;
+
     androidx.appcompat.widget.Toolbar toolbar;
+
     NavigationView navigationView;
+
     FragmentManager fragmentManager;
+
     FragmentTransaction fragmentTransaction;
 
     @Override
